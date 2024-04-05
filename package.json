@@ -2,12 +2,14 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.3",
