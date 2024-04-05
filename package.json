@@ -2,7 +2,6 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
