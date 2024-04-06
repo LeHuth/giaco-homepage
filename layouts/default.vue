@@ -23,7 +23,7 @@ onMounted(() => {
 <div id="main-wrapper" class="h-dvh">
   <Header/>
   <slot class="z-40 p-10"/>
-  <video class="absolute top-0 left-0 h-full object-cover -z-20 opacity-20 w-full" autoplay muted loop id="myVideo">
+  <video class="absolute top-0 left-0 h-full object-cover -z-20 opacity-20 w-full" autoplay playsinline muted loop id="myVideo">
     <source src="/clip.mp4" type="video/mp4">
   </video>
 </div>
