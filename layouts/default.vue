@@ -1,12 +1,12 @@
 <script setup lang="ts">
 let options = {
   "animate": true,
-  "patternWidth": 193.72,
-  "patternHeight": 500,
-  "grainOpacity": 0.14,
-  "grainDensity": 1,
-  "grainWidth": 1,
-  "grainHeight": 1
+  "patternWidth": 134.28,
+  "patternHeight": 133.37,
+  "grainOpacity": 0.06,
+  "grainDensity": 2.27,
+  "grainWidth": 2.27,
+  "grainHeight": 3.31
 }
 // only when client-side
 
@@ -20,10 +20,10 @@ onMounted(() => {
 </script>
 
 <template>
-<div id="main-wrapper">
+<div id="main-wrapper" class="h-dvh">
   <Header/>
   <slot class="z-40 p-10"/>
-  <video class="absolute top-0 left-0 h-full object-cover -z-20 opacity-20" autoplay muted loop id="myVideo">
+  <video class="absolute top-0 left-0 h-full object-cover -z-20 opacity-20 w-full" autoplay muted loop id="myVideo">
     <source src="/clip.mp4" type="video/mp4">
   </video>
 </div>

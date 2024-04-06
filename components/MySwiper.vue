@@ -5,7 +5,7 @@ const props = defineProps({
     type: Array,
     required: true
   }});
-console.log(props.sliderContent)
+console.log('props', props.sliderContent)
 </script>
 
 <template>
@@ -17,7 +17,7 @@ console.log(props.sliderContent)
       :space-between="16"
       :pagination="{ clickable: true, enabled: true, el: '.custom-swiper-pagination'}"
   >
-    <SwiperSlide v-for="(slide,idx) in props.sliderContent" :key="idx">
+    <SwiperSlide v-for="(slide,idx) in props.sliderContent.data" :key="idx">
       <NuxtImg :src="slide.image" />
       <p class="text-white text-2xl font-bold mt-4">{{slide.name}}</p>
     </SwiperSlide>

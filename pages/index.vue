@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const categories = [
-  { name: 'ARTE RE', url:'arte-re'},
+  { name: 'ARTE RE', url:'arte'},
   { name: 'ARTE TRACKS'},
   { name: 'ARTE TRACKS EAST'},
   { name: '3sat Kulturdoku'},

@@ -2,15 +2,18 @@
   <header class="absolute w-full z-50">
     <nav class="mx-auto flex items-center justify-between p-6 lg:px-10" aria-label="Global">
       <div class="hidden lg:flex lg:flex-1 lg:justify-start">
-        <a href="#" class="text-sm font-semibold leading-6 text-white">Work</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-white uppercase">Work</a>
       </div>
       <div class="flex lg:flex-1 justify-center">
-        <a href="#" class="-m-1.5 p-1.5">
-          <h2 class="font-bold text-2xl text-white justify-center">Giacomo Boehlke</h2>
-        </a>
+        <nuxt-link to="/">
+          <a href="#" class="-m-1.5 p-1.5">
+            <h2 class="font-bold text-2xl text-white justify-center uppercase">Giacomo Boehlke</h2>
+          </a>
+        </nuxt-link>
+
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm font-semibold leading-6 text-white">About</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-white uppercase">About</a>
       </div>
     </nav>
     <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
