@@ -8,7 +8,7 @@ const router = useRouter()
 const url = router.currentRoute.value.params.slug
 console.log(url)
 
-const { data, pending } = await useFetch('/api/getListings?slug=arte')
+const { data, pending } = await useFetch(`/api/getListings?slug=${url}`)
 console.log(data.value.body.message.data )
 definePageMeta({
   title: 'Slug Page',
@@ -23,7 +23,7 @@ definePageMeta({
   <main class="flex flex-col pb-32 p-10">
     <div class="">
 
-      <MySwiper v-if="!pending" :slider-content="data.body.message"/>
+      <MySwiper v-if="!pending" :swiper-title="data?.body.message.title" :slider-content="data.body.message"/>
 
 
     </div>

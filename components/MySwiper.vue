@@ -4,13 +4,18 @@ const props = defineProps({
   sliderContent: {
     type: Array,
     required: true
-  }});
+  },
+  swiperTitle: {
+    type: String,
+    required: true
+  }
+});
 console.log('props', props.sliderContent)
 </script>
 
 <template>
   <div>
-    <h1 class="text-white font-bold mb-16 ">ARTE:Re</h1>
+    <h1 class="text-white font-bold mb-16 ">{{props.swiperTitle}}</h1>
   <Swiper
       :modules="[Pagination]"
       :slides-per-view="2"

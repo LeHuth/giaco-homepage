@@ -1,12 +1,12 @@
 <script setup lang="ts">
 let options = {
   "animate": true,
-  "patternWidth": 134.28,
-  "patternHeight": 133.37,
-  "grainOpacity": 0.06,
-  "grainDensity": 2.27,
-  "grainWidth": 2.27,
-  "grainHeight": 3.31
+  "patternWidth": 100,
+  "patternHeight": 100,
+  "grainOpacity": 0.05,
+  "grainDensity": 1,
+  "grainWidth": 1,
+  "grainHeight": 1
 }
 // only when client-side
 
