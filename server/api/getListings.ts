@@ -1,10 +1,11 @@
 import {data} from '../data/data'
 import {useRequestBody} from "nitropack/runtime/utils";
+import { getQuery } from 'h3'
 
 
 export default defineEventHandler(async (event) => {
-    const query = event.path.split('?')[1].split('=')[1]
-    let returnData = data.shows[query]
+    const queryParam = getQuery(event)
+    let returnData = data.shows[queryParam.slug]
     if (returnData === undefined) {
         returnData = "No data found"
     }

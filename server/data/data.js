@@ -45,6 +45,19 @@ export const data = {
                 {name:'RoadStars - Eure Wintertipps', image: 'sonder-3.jpg', type:'blog', uuid: '018eb7f4-1d2d-70d0-b297-3b4d46822381'},
             ]
         }
+    },
+    detail:{
+        '018eb7f1-702b-714a-aa3a-3b49af914a9d':{
+            title: 'Reiche Ernte auf minimaler Fläche',
+            image: 'arte-3.jpg',
+            description: 'In der Nähe von Paris betreibt der Biobauer Jean-Martin Fortier eine Farm, die auf nur einem Hektar Fläche 100 Familien mit Gemüse versorgt. Sein Erfolgsrezept: Mischkulturen, Handarbeit und eine effiziente Vermarktung.',
+            videoId: '1',
+            duration: '5:00',
+            date: '2022-01-01',
+            tags: ['Biobauernhof', 'Mischkulturen', 'Handarbeit', 'Vermarktung'],
+            category: 'ARTE'
+        },
+
     }
 
 

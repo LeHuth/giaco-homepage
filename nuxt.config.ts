@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-swiper',
     '@nuxt/image',
+      '@kgierke/nuxt-basic-auth'
   ],
   swiper: {
     modules: ['navigation', 'pagination', 'scrollbar'],
@@ -28,6 +29,15 @@ export default defineNuxtConfig({
     classPrefix: '',
     classSuffix: '-mode',
     storageKey: 'nuxt-color-mode'
+  },
+  basicAuth: {
+    enabled: true,
+    users: [
+      {
+        username: "niki",
+        password: "stinkt",
+      },
+    ],
   },
   app:{
     head:{

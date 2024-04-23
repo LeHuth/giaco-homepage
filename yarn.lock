@@ -554,6 +554,14 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kgierke/nuxt-basic-auth@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@kgierke/nuxt-basic-auth/-/nuxt-basic-auth-1.5.0.tgz#c8395f6d75b75e447880419965f296dfac5bd949"
+  integrity sha512-Djc/w8dINSAUJdrr3ojf4M2XnpmJzbxq5Q9ru4SDSaRPBepdgqhrLsfvuH3XP1RiJTbS3nV2fOoBrWWXivjAeA==
+  dependencies:
+    "@nuxt/kit" "^3.10.3"
+    defu "^6.1.4"
+
 "@koa/router@^12.0.1":
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@koa/router/-/router-12.0.1.tgz#1a66f92a630c02832cf5bbf0db06c9e53e423468"
@@ -806,7 +814,7 @@
   optionalDependencies:
     ipx "^2.1.0"
 
-"@nuxt/kit@3.11.2", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.7.0", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.3":
+"@nuxt/kit@3.11.2", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.7.0", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.3":
   version "3.11.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.11.2.tgz#dfc43c05992691bcd6aa58c14f88cf43e3abb788"
   integrity sha512-yiYKP0ZWMW7T3TCmsv4H8+jEsB/nFriRAR8bKoSqSV9bkVYWPE36sf7JDux30dQ91jSlQG6LQkB3vCHYTS2cIg==
