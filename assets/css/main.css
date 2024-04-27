@@ -3,11 +3,36 @@
 @tailwind utilities;
 
 html {
-    background: black;
+    background: #0c0c0c;
 }
 
 @font-face {
     font-family: 'Montserrat';
     src: url('~/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900; /* Assuming the font weight ranges from 100 to 900 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, span, a, li, button, input, label, select, textarea, div, form, table, th, td, tr{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+@layer components {
+    .hero-font {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #E2DAD3;
+    }
+    .hero-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #E2DAD3;
+    }
 }
