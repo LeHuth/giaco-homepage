@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-    background: #0c0c0c;
+    background: #1C1C1C;
+
 }
 
 @font-face {
@@ -35,4 +36,14 @@ h1 {
         font-weight: 400;
         color: #E2DAD3;
     }
+    .my-bg-secondary{
+        background: #E2DAD3;
+    }
+    .my-bg{
+        background: #1C1C1C;
+    }
+    .my-bg-light{
+        background: #2C2C2C;
+    }
+
 }
