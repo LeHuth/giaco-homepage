@@ -10,7 +10,7 @@ definePageMeta({
     <section class="px-8 pb-8 rounded-[56px] my-bg z-50 -mb-16">
       <div >
 
-      // TODO: Make this render from a list of projects as a v-for loop
+<!--      TODO: Make this render from a list of projects as a v-for loop-->
       <h1 class="hero-font text-7xl text-right">FEATURED WORK</h1>
       <div class="grid grid-cols-3 gap-8 max-w-[930px] mt-14">
         <div class="h-[440px]">
@@ -38,7 +38,7 @@ definePageMeta({
     <section class="my-bg-secondary py-44 min-h-96 px-8 z-10">
         <h1 class="hero-font-invert text-7xl text-right">WORKED WITH</h1>
       <div class="grid grid-cols-4 gap-8 mt-14">
-        // TODO: same here. make this render from a list of logos as a v-for loop
+<!--        TODO: same here. make this render from a list of logos as a v-for loop-->
         <div>
           <NuxtImg src="3sat_logo_bg.png" width="150" height="150" class="mx-auto"/>
         </div>
